@@ -1,0 +1,8 @@
+pages/MainPage.java
+ pages.MainPage
+LambdaTest.java
+ LambdaTest
+SelenideTest.java
+ SelenideTest
+StepTest.java
+ StepTest

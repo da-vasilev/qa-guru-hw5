@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 13 17:50:39 MSK 2022","Thu Jan 13 17:51:02 MSK 2022","23641","","SelenideTest","","SelenideTest","checkIssuesInGithub","Проверить вкладку 'Issue' на странице Github",""
+"passed","Thu Jan 13 17:50:06 MSK 2022","Thu Jan 13 17:50:38 MSK 2022","32749","","LambdaTest","","LambdaTest","checkIssuesInGithub","Проверить вкладку 'Issues' на странице Github",""
+"passed","Thu Jan 13 17:51:02 MSK 2022","Thu Jan 13 17:51:21 MSK 2022","18874","","StepTest","","StepTest","checkIssueInGithub","Проверить вкладку 'Issues' на странице Github",""
