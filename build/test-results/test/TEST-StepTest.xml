@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StepTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-14T07:17:04" hostname="HOME_PC" time="23.305">
-  <properties/>
-  <testcase name="Проверить вкладку 'Issues' на странице Github" classname="StepTest" time="23.305"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SelenideTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-14T07:16:41" hostname="HOME_PC" time="23.584">
-  <properties/>
-  <testcase name="Проверить вкладку 'Issue' на странице Github" classname="SelenideTest" time="23.584"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

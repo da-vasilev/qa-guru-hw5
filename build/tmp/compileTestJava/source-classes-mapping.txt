@@ -1,8 +1,0 @@
-pages/WebSteps.java
- pages.WebSteps
-LambdaTest.java
- LambdaTest
-SelenideTest.java
- SelenideTest
-StepTest.java
- StepTest
