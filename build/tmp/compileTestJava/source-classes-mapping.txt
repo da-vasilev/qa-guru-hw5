@@ -1,5 +1,5 @@
-pages/MainPage.java
- pages.MainPage
+pages/WebSteps.java
+ pages.WebSteps
 LambdaTest.java
  LambdaTest
 SelenideTest.java

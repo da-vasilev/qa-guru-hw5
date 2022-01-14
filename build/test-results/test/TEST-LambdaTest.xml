@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LambdaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-13T14:50:06" hostname="HOME_PC" time="32.979">
+<testsuite name="LambdaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-14T07:16:10" hostname="HOME_PC" time="30.945">
   <properties/>
-  <testcase name="Проверить вкладку 'Issues' на странице Github" classname="LambdaTest" time="32.979"/>
+  <testcase name="Проверить вкладку 'Issues' на странице Github" classname="LambdaTest" time="30.945"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 60723
+  <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 52713
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-янв. 13, 2022 5:50:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+янв. 14, 2022 10:16:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-янв. 13, 2022 5:50:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+янв. 14, 2022 10:16:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 97, so returning the closest version found: 96
-янв. 13, 2022 5:50:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+янв. 14, 2022 10:16:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 97 of 96
 ]]></system-err>
 </testsuite>

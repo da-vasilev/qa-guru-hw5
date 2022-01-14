@@ -7,8 +7,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
+import static org.openqa.selenium.By.partialLinkText;
 
 public class LambdaTest {
 
@@ -27,11 +29,12 @@ public class LambdaTest {
         });
 
         step("Выбираем первую страницу", ()-> {
-            $$("ul.repo-list li").first().$("a").click();
+            $("ul.repo-list li").$("a").click();
         });
 
-        step("Проверяем наличие вкладки 'Issues'", ()-> {
-            $("#issues-tab").should(visible);
+        step("Проверяем наличие 'Issues' номером", ()-> {
+            $(partialLinkText("Issues")).click();
+            $(withText("#1558")).should(visible);
         });
     }
 }

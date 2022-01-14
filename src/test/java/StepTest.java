@@ -4,7 +4,7 @@ import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import pages.MainPage;
+import pages.WebSteps;
 
 public class StepTest {
 
@@ -14,12 +14,12 @@ public class StepTest {
     @Story("Проверка вкладки Issues")
     @DisplayName("Проверить вкладку 'Issues' на странице Github")
     void checkIssueInGithub() {
-        MainPage mainPage = new MainPage();
+        WebSteps webSteps = new WebSteps();
 
-        mainPage
+        webSteps
                 .openPage("https://github.com/")
                 .search("Allure")
                 .clickFirstDocument()
-                .checkIssuesTab();
+                .checkIssuesTab("#1558");
     }
 }
